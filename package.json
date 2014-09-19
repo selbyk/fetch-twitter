@@ -1,0 +1,20 @@
+{
+  "name": "fetch-twitter",
+  "version": "0.0.1",
+  "description": "Open websocket to listen to twitter streaming api broadcasts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket",
+    "twitter",
+    "api"
+  ],
+  "author": "Selby Kendrick",
+  "license": "MIT",
+  "devDependencies": {
+    "Sentimental": "^1.0.1",
+    "twitter": "^0.2.12"
+  }
+}
