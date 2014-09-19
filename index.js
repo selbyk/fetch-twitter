@@ -8,7 +8,7 @@ function PostTweet(tweet) {
   var influxPost = '[\
 {\
 "name" : "tweets",\
-"columns" : ["time", "user_id", "user_name", id", "text", "sentiment", "positivity", "negativity",\
+"columns" : ["time", "user_id", "user_name", "id", "text", "sentiment", "positivity", "negativity",\
 "points" : [\
 [' + tweet.timestamp_ms + ', '
    + tweet.user.id + ', '
